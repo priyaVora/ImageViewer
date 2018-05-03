@@ -1,7 +1,16 @@
 #AnchorPane { 
-	-fx-background-color: linear-gradient(to right top, #9ea737, #20af66, #00acb1, #009fee, #4481f4);
+-fx-background-color:  linear-gradient(to right top, #45002d, #8c1a31, #bf5519, #cd9e00, #a8eb12);
+}
+#scrollPane { 
+  
+}
+#mainPane { 
+	-fx-background-radius: 20.0px;
+	-fx-border-color: white;
 }
 
-#mainPane { 
-	-fx-background-color: red;
+#imageView { 
+	-fx-border-color: black;
+	-fx-border-radius: 50.0px;
+	
 }
