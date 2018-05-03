@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="592.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.ImageScreenController">
+  <children>
+    <ChoiceBox fx:id="operationChoiceBox" layoutX="20.0" layoutY="14.0" prefWidth="195.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Upload" />
+            <String fx:value="View" />
+              <String fx:value="Edit" />
+                <String fx:value="Delete" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label fx:id="imageName" layoutX="245.0" layoutY="14.0" prefWidth="324.0" text="" />
+  </children>
+</AnchorPane>
