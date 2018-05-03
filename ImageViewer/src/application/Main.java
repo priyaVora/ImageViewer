@@ -18,10 +18,11 @@ public class Main extends Application {
 		Scene scene = new Scene(root);
 		scene.getStylesheets().add(Main.class.getResource("application.css").toExternalForm());
 
+
 		primaryStage.setScene(scene);
 
 		primaryStage.setTitle("Image View");
-		primaryStage.setResizable(false);
+		primaryStage.setResizable(true);
 		primaryStage.show();
 	}
 
